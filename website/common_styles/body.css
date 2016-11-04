@@ -1,0 +1,30 @@
+/* use this class to make any div 100% height at the screen the color just for demonstration 
+and i like the baby blue  color :P :P :D :D ;
+*/
+.body-section{
+            /*  Clear or override this color as you like  */
+		background-color: #89cff0;
+		height:100vh;
+}
+
+
+/* this class holds the navigation menue location  */
+.section-navigator{
+	right: 0;
+    /*padding-right: 55px;*/
+    position: fixed;
+    width: 150px;
+    background: cornflowerblue;
+    border-radius: 10%;
+    margin-right: 50px;
+    color: white;
+}
+
+
+/* forcing the iframe to load the main footer and make take 100% width with no dorders outside the layout frames page  */
+iframe{
+
+	display: block;
+    width: 100%;
+    border: 0;
+}

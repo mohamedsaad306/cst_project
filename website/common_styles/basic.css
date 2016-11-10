@@ -28,3 +28,9 @@ iframe{
     width: 100%;
     border: 0;
 }
+/*   force the footer div to stay on bottom of each page */
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

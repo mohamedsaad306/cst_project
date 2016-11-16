@@ -1,0 +1,9 @@
+.team-member{
+	 width: 20%;
+    margin-right: 24px;
+    border: black;
+    border-width: thin;
+    border-style: solid;
+    padding: 18px;
+        display: inline-block;
+}

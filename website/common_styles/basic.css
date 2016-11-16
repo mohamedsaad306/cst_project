@@ -34,3 +34,8 @@ iframe{
     bottom: 0;
     width: 100%;
 }
+.row{
+
+    padding-left: 2%;
+    padding-right: 2%;
+}

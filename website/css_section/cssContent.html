@@ -1,6 +1,7 @@
 <html>
 	<head></head>
 	<body>
+		
 		<h1>Why use CSS?</h1>
 		<ol>
 			<li> Managing Style at any sites.</li>
@@ -8,8 +9,18 @@
 			<li> Ease of maintenance of site.</li>
 			<li> Decreased production work hours</li>
 		</ol>
+		<h1>What will you need?</h1>
+		<img src ="C:\Users\Samar Samir\Documents\prject\Picture1.png">
+		<img src ="C:\Users\Samar Samir\Documents\prject\Picture2.png">
+		<img src ="C:\Users\Samar Samir\Documents\prject\Picture3.png">
+		<p>HTML Knowledge<br>
+		Text Editor<br>
+		Modern Web Browser<br>
+		</p>
 		
-		<h1>Apply CSS to HTML</h1>
+		
+	    <h1>Apply CSS to HTML</h1>
+		<img src ="C:\Users\Samar Samir\Documents\prject\Picture5.png">
 		<p>CSS can be applied to HTML document as: </p>
 		<ol>
 			<li>Inline style</li>
@@ -18,11 +29,15 @@
 		</ol>
 		
 		<h2>Inline Style</h2>
-		<p>An inline style may be used to apply a unique style for a single element.</p>
+		<p>An inline style may be used to apply a unique style for a single element.
+		<xmp><h1 style="color: blue">This is a heading.</h1></xmp>
+		An inline style loses many of the advantages of a style sheet (by mixing content with presentation). 
+		</p>
 		
 		<h2>Internal Style Sheet</h2>
 		<p>Internal style sheet may be used if one single page has a unique style.
-		
+		<xmp><STYLE TYPE=“text/css” ></xmp>
+		type -> type of the stylesheet and commonly there’s only one type
 		</p>
 		
 		<h2>External Style Sheet</h2>
@@ -34,7 +49,19 @@
 		<h1>Linking External Style Sheet</h1>
 		<p>¦We refer to the CSS file using </p>
 		<h2>link tag</h2>
+		<p>
+		<xmp><link rel=”stylesheet” type=”text/css” href=”main.css”></xmp>
+		rel -> relationship         (Important !) <br>
+		type -> type of the stylesheet and commonly there’s only one type<br>
+		href -> Hyper Link, referring to the file url
+		</p>
+		
 		<h2>Import</h2>
+		<xmp><STYLE TYPE="text/css">
+		 @import url(“styles1.css”);
+  		 @import url(“style2.css”);
+		</STYLE></xmp>
+
 		
 		<h1>Syntax</h1>
 		<p>The CSS syntax rule is made up of three parts:</p>
@@ -43,13 +70,67 @@
 			<li>property</li>
 			<li>value</li>
 		</ol>
-		
+			
 		<h2>Selectors</h2>
+		
 		<h3>IDs Selector</h3>
-		<p>The ID attribute is used to define a unique style for an element</p>
+		<img src ="C:\Users\Samar Samir\Documents\prject\Picture6.png">
+		<p>The ID attribute is used to define a unique style for an element<br>
+		Example<br>
+		In the CSS
+		<xmp>#myId {color: red}</xmp>
+		In the HTML
+		<xmp><div id=“myId” >
+			This is the div with the id. 
+		</div></xmp>
+		</p>
+		
+		
 		<h3>Class Selector</h3>
-		<p>Classes allow you to define a style which can be applied to multiple elements on your page.</p>
+		<img src ="C:\Users\Samar Samir\Documents\prject\Picture7.png">
+		<p>Classes allow you to define a style which can be applied to multiple elements on your page.
+		Example<br>
+		In the CSS
+		<xmp>.right {text-align: right}
+		.center {text-align: center}</xmp>
+		In the HTML
+		<xmp><p class="right">
+		This paragraph will be right-aligned.	</p>
+		<p class="center">
+		This paragraph will be center-aligned.</p>
+		</xmp>
+		</p>
+		
+		
 		<h3>Select Group</h3>
-		<p></p>
+		<p>Grouping selectors is done by separating each selector with a comma: <br>
+		h1,h2,h3,h4,h5,h6 { color: green, font-family: "Ariel”}</p>
+		
+		<h3>Comments</h3>
+		<img src ="C:\Users\Samar Samir\Documents\prject\Picture8.png">
+		<p><xmp>/* H1 {  color: red; font-family: “Verdana“;} */
+		</xmp></p>
+	
+		<h1>The CSS Box Model</h1>
+		<p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:
+		The box model allows us to add a border around elements, and to define space between elements. 
+		</p>
+		<img src ="C:\Users\Samar Samir\Documents\prject\Picture.png">
+		<h2>Explanation of the different parts:<h2>
+		<ul>
+		<li>Content - The content of the box, where text and images appear</li>
+		<li>Padding - Clears an area around the content. The padding is transparent</li>
+		<li>Border - A border that goes around the padding and content</li>
+		<li>Margin - Clears an area outside the border. The margin is transparent</li>
+		</ul>
+		<p>Example
+		<xmp>div {
+		width: 300px;
+		border: 25px solid green;
+		padding: 25px;
+		margin: 25px;
+}		</xmp>
+		</p>
+		
 		</body>
 		</html>

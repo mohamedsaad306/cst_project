@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>-- the title of the page just for identification --</title>
+	</head>
+	<body>
+		<h1>CSS background</h1>
+		
+		<p>The CSS background properties are used to define the background effects for elements.</p>
+		<p>CSS background properties:</p>
+	<ul>
+		<li>background-color</li>
+		<li>background-image</li>
+		<li>background-repeat</li>
+		<li>background-attachment</li>
+		<li>background-position</li>
+	</ul>
+	
+	<h2>Background Color</h2>
+	<p>The background-color property specifies the background color of an element.
+	The background color of a page is set like this:<br>
+		With CSS, a color is most often specified by: <br>
+	<ul>
+		<li>a valid color name - like "red"</li>
+		<li>a HEX value - like "#ff0000" </li>
+		<li>an RGB value - like "rgb(255,0,0) </li>
+	</ul>
+	Example </p>
+	<xmp>
+	body {
+		background-color: lightblue;
+	}</xmp>
+	
+	
+	<h3>Background Image</h3>
+		<p>The background-image property specifies an image to use as the background of an element.
+		By default, the image is repeated so it covers the entire element.<br>
+		The background image for a page can be set like this:<br>
+		Showing the background image only once is also specified by the background-repeat property: <br>
+		Example </p>
+		<xmp>
+		body {
+			background-image: url("paper.gif");
+			background-repeat: no-repeat;
+			}</xmp>
+		
+		<h3>Background Image - Fixed position</h3>
+		<p>To specify that the background image should be fixed (will not scroll with the rest of the page), use the background-attachment property: <br>
+		Example : <br>
+		</p>
+		<xmp>
+		body {
+			background-image: url("img_tree.png");
+			background-repeat: no-repeat;
+			background-position: right top;
+			background-attachment: fixed;
+		}
+		</xmp>
+		
+		
+	
+		<a href="body.html">Go back to the html body </a>	
+	</body>
+</html>

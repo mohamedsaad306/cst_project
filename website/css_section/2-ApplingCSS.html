@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>-- the title of the page just for identification --</title>
+	</head>
+	<body>
+		 <h1>Apply CSS to HTML</h1>
+		<img src ="img\Picture5.png">
+		<p>CSS can be applied to HTML document as: </p>
+		<ol>
+			<li>Inline style</li>
+			<li>Internal style sheet</li>
+			<li>External stylesheet file</li>
+		</ol>
+		
+		<h2>Inline Style</h2>
+		<p>An inline style may be used to apply a unique style for a single element.
+		<xmp><h1 style="color: blue">This is a heading.</h1></xmp>
+		An inline style loses many of the advantages of a style sheet (by mixing content with presentation). 
+		</p>
+		
+		<h2>Internal Style Sheet</h2>
+		<p>Internal style sheet may be used if one single page has a unique style.
+		Internal styles are defined within the style element, inside the head section of an HTML page:<br><br>
+		Example
+		<xmp><head>
+		<style>
+		body {
+			background-color: linen;
+		}
+
+		h1 {
+			color: maroon;
+			margin-left: 40px;
+		} 
+		</style>
+		</head></xmp>
+
+		</p>
+		
+		<h2>External Style Sheet</h2>
+		<p>We refer to the file using link tag or Import
+		When you apply external sheet to different files, by editing in that stylesheet it will reflect in all the html files that refer to it <br><br>
+		Example
+		<xmp><head>
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		</head>
+		</xmp>
+		rel -> relationship         (Important !) <br>
+		type -> type of the stylesheet and commonly there’s only one type<br>
+		href -> Hyper Link, referring to the file url
+		</p>
+		
+		
+		<a href="body.html">Go back to the html body </a>
+	</body>
+</html>

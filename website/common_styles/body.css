@@ -101,13 +101,14 @@ footer {
   z-index: auto;
   text-decoration: none;
   text-align: center;
-  color: white;
+  color: gray;
   padding: 5px;
- 
+  background: url(imgs/footer_bg.png);
 
 }
 footer a {
+  color: gray;
     text-decoration: none;
     display: inline-block;
-
+    padding-right: 10px;
 }

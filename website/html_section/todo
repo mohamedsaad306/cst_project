@@ -1,0 +1,5 @@
+in body 
+- add div with   class="body-child-container" id= Your new id 
+- inside the div add 
+		1- iframe  <iframe src="____link to your page _____" frameborder="0" scrolling="no"></iframe>
+		2- a link <a href="____link to your page _____" class="link-readMore"> Detailes page </a>

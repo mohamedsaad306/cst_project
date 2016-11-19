@@ -18,6 +18,7 @@ and i like the baby blue  color :P :P :D :D ;
     border-radius: 10%;
     margin-right: 50px;
     color: white;
+    z-index: 99 !important;
 }
 
 
@@ -27,4 +28,29 @@ iframe{
 	display: block;
     width: 100%;
     border: 0;
+    overflow: hidden;
+    height: inherit;
+}
+
+.body-parent-contaner{
+overflow: hidden;
+position: relative;
+}
+.body-child-container{
+position: relative;
+height: 320px;
+top: -50%;
+margin-bottom: 20px;
+}
+.link-readMore {
+    float: right;
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
 }

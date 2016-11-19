@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> this is html Body  and it's 90% html_section/body.html  </title>
+	<!-- link to structure and navigation css  -->
+	<link rel="stylesheet" type="text/css" href="../common_styles/basic.css">
+	
+	<!--
+	 force any link within this section to  load it's page into html body frame 
+		which is located html_section/layout.html so that any page related will be loaded here whitout losing the header 
+	-->
+	<base target="html-body"/>	
+
+</head>
+<body id="top">
+<!-- ---- IMPORTANT ----
+	section navigator within the body how to use this : 
+	-- first add a div with an id for ex : id="sec-3"
+	-- create a list item <li > in this <ul> and put a link inside it <a>
+	-- set the href? for the ancor tag to <a href="#sec-3" >  
+  -->
+	<div class="section-navigator" align="">
+		<ul>
+			<li><a href="#top">top</a> </li>
+			<li><a href="#sec-1">dev 1</a> </li>
+			<li><a href="#sec-2">dev 2</a> </li>
+			<li><a href="#sec-3">dev 3</a> </li>
+			<li><a href="#sec4">_________</a> </li>
+		</ul>
+	</div>
+<!-- end of rightside navigator  -->
+
+<center>s
+	
+<p>Html Body came from p  tag <br>
+this is html Body  and it's 90% html_section/body.html
+  </p>
+</center>
+
+<div class="body-section" id="sec-1">
+#dev1	
+<br>
+<p><b>Headings Are Important</b><p>
+<a href="html_page1.html">html Page 1  </a>
+<h2>HTML Lists</h2>
+<h2><b>Unordered HTML List</b></h2>
+<p><xmp>
+An unordered list starts with the <ul> tag. Each list item starts with the <li> tag.
+</xmp></p>
+<p>The list items will be marked with bullets (small black circles) by default:</p>
+<h3>Example</h3>
+<p><xmp>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+</xmp></p> 
+<h2>HTML Block and Inline Elements</h2>
+<p>Every HTML element has a default display value depending on what type of element it is.
+ The default display value for most elements is block or inline.</p>
+<h2>Block-level Elements</h2>
+<p>
+A block-level element always starts on a new line and takes up the full width available (stretches out to the left and right as far as it can).</p>
+<p><xmp>The <div> element is a block-level element.</xmp></p>
+<h3>Examples of block-level elements:</h3>
+<p><xmp>
+•	<div>
+•	<h1> - <h6>
+•	<p>
+•	<form>
+</xmp></p>
+</div>
+
+asdasd
+<div class="body-section" id="sec-2">
+#dev2	
+<br>
+
+<h2>Inline Elements</h2>
+<p>An inline element does not start on a new line and only takes up as much width as necessary.</p>
+<p><xmp>This is an inline <span> element inside a paragraph.</xmp></p>
+<h3>Examples of inline elements:</h3>
+<p><xmp>
+•	<span>
+•	<a>
+•	<img>
+<xmp></p>
+</div>
+k2
+<div class="body-section" id="sec-3">
+#dev3	
+</div>
+<div id="sec4" class="body-section" style="background-color: red;">	
+new sec 
+
+</div>
+
+</body>
+<iframe src="../footer.html"></iframe>	
+<frame src="../footer.html"/>
+</frameset>
+</html>

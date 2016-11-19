@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> this is html Body  and it's 90% html_section/body.html  </title>
+	<!-- link to structure and navigation css  -->
+	<link rel="stylesheet" type="text/css" href="../common_styles/basic.css">
+	
+	<!--
+	 force any link within this section to  load it's page into html body frame 
+		which is located html_section/layout.html so that any page related will be loaded here whitout losing the header 
+	-->
+	<base target="html-body"/>	
+
+</head>
+<body id="top">
+<!-- ---- IMPORTANT ----
+	section navigator within the body how to use this : 
+	-- first add a div with an id for ex : id="sec-3"
+	-- create a list item <li > in this <ul> and put a link inside it <a>
+	-- set the href? for the ancor tag to <a href="#sec-3" >  
+  -->
+	<div class="section-navigator" align="">
+		<ul>
+			<li><a href="#top">top</a> </li>
+			<li><a href="#sec-1">dev 1</a> </li>
+			<li><a href="#sec-2">dev 2</a> </li>
+			<li><a href="#sec-3">dev 3</a> </li>
+			<li><a href="#sec4">_________</a> </li>
+		</ul>
+	</div>
+<!-- end of rightside navigator  -->
+
+<center>s
+	
+<p>Html Body came from p  tag <br>
+this is html Body  and it's 90% html_section/body.html
+  </p>
+</center>
+
+<div class="body-section" id="sec-1">
+#dev1	
+<br>
+<p><b>Headings Are Important</b><p>
+<a href="html_page1.html">html Page 1  </a>
+<h2>HTML Tables</h2>
+<h2><b>Defining an HTML Table</b></h2>
+<p><xmp>An HTML table is defined with the <table> tag.</p></xmp>
+<p><xmp>Each table row is defined with the <tr> tag.
+ A table header is defined with the <th> tag. 
+By default, table headings are bold and centered. 
+A table data/cell is defined with the <td> tag.
+</xmp></p>
+<h3>Example<h3>
+<p><xmp><table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table> </xmp></p>
+
+</div>
+
+asdasd
+<div class="body-section" id="sec-2">
+#dev2
+<br>
+<h2>HTML Table - Adding a Border</h2>
+<p>If you do not specify a border for the table, it will be displayed without borders.</p>
+<p>A border is set using the CSS border property:</p>
+<h3>Example</h3>
+<p><xmp>
+table, th, td {
+    border: 1px solid black;
+}
+</xmp></p>
+<h2>HTML Table - Collapsed Borders</h2>
+<p>If you want the borders to collapse into one border, add the CSS border-collapse property:</p>
+<h3>Example<h3>
+<p><xmp>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+</xmp></p>
+</div>
+k2
+<div class="body-section" id="sec-3">
+#dev3	
+</div>
+<div id="sec4" class="body-section" style="background-color: red;">	
+new sec 
+<br>
+<h2>HTML Table - Adding Cell Padding</h2>
+<p>Cell padding specifies the space between the cell content and its borders.</p>
+<p>If you do not specify a padding, the table cells will be displayed without padding.</p>
+<p>To set the padding, use the CSS padding property:</p>
+<h3>Example</h3>
+<p><xmp>
+th, td {
+    padding: 15px;
+}
+</xmp></p>	
+
+</div>
+
+</body>
+<iframe src="../footer.html"></iframe>	
+<frame src="../footer.html"/>
+</frameset>
+</html>

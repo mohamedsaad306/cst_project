@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> this is html Body  and it's 90% html_section/body.html  </title>
+	<!-- link to structure and navigation css  -->
+	<link rel="stylesheet" type="text/css" href="../common_styles/basic.css">
+	
+	<!--
+	 force any link within this section to  load it's page into html body frame 
+		which is located html_section/layout.html so that any page related will be loaded here whitout losing the header 
+	-->
+	<base target="html-body"/>	
+
+</head>
+<body id="top">
+<!-- ---- IMPORTANT ----
+	section navigator within the body how to use this : 
+	-- first add a div with an id for ex : id="sec-3"
+	-- create a list item <li > in this <ul> and put a link inside it <a>
+	-- set the href? for the ancor tag to <a href="#sec-3" >  
+  -->
+	<div class="section-navigator" align="">
+		<ul>
+			<li><a href="#top">top</a> </li>
+			<li><a href="#sec-1">dev 1</a> </li>
+			<li><a href="#sec-2">dev 2</a> </li>
+			<li><a href="#sec-3">dev 3</a> </li>
+			<li><a href="#sec4">_________</a> </li>
+		</ul>
+	</div>
+<!-- end of rightside navigator  -->
+
+<center>s
+	
+<p>Html Body came from p  tag <br>
+this is html Body  and it's 90% html_section/body.html
+  </p>
+</center>
+
+<div class="body-section" id="sec-1">
+#dev1	
+<br>
+<h2><b>HTML Links - Hyperlinks</b></h2>
+<p>HTML links are hyperlinks.</p>
+<p>You can click on a link and jump to another document.</p>
+<p>When you move the mouse over a link, the mouse arrow will turn into a little hand.</p>
+<p>The href attribute specifies the destination address (http://www.w3schools.com/html/) of the link</p>
+<h3>Example</h3>
+<p><xmp><a href="http://www.w3schools.com/html/">Visit our HTML tutorial</a> </xmp></p>
+<p>Local Links</p>
+<p>The example above used an absolute URL (A full web address). </p>
+<p>A local link (link to the same web site) is specified with a relative URL (without http://www....).</p>
+<h3>Example</h3>
+<p><xmp><a href="html_images.asp">HTML Images</a> </xmp></p>
+
+
+<a href="html_page1.html">html Page 1  </a>
+
+</div>
+
+asdasd
+<div class="body-section" id="sec-2">
+#dev2
+<br>
+<h2>HTML Link Colors</h2>
+<p>By default, a link will appear like this (in all browsers):</p>
+<p>
+•	An unvisited link is underlined and blue
+•	A visited link is underlined and purple
+•	An active link is underlined and red
+</p>
+<p>You can change the default colors, by using styles:</p>
+<h3>Example</h3>
+<p><xmp>
+< style>
+a:link    {color:green; background-color:transparent; text-decoration:none}
+a:visited {color:pink; background-color:transparent; text-decoration:none}
+a:hover   {color:red; background-color:transparent; text-decoration:underline}
+a:active  {color:yellow; background-color:transparent; text-decoration:underline}
+</style> 
+</xmp>
+</p>
+<h2>HTML Links - The target Attribute</h2>
+<p>The target attribute specifies where to open the linked document.</p>
+<p>The target attribute can have one of the following values:</p>
+<p>
+•	_blank - Opens the linked document in a new window or tab
+•	_self - Opens the linked document in the same window/tab as it was clicked (this is default)
+•	_parent - Opens the linked document in the parent frame
+•	_top - Opens the linked document in the full body of the window
+•	framename - Opens the linked document in a named frame
+</p>
+<p>This example will open the linked document in a new browser window/tab:</p>
+<h3>Example</h3>
+<p><xmp><a href="http://www.w3schools.com/" target="_blank">Visit W3Schools!</a></xmp></p>	
+</div>
+k2
+<div class="body-section" id="sec-3">
+#dev3	
+<br>
+<h2>HTML Links - Image as Link</h2>
+<p>It is common to use images as links:</p>
+<h3>Example</h3>
+<p><xmp>
+<a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
+</a>
+</p></xmp>
+
+</div>
+<div id="sec4" class="body-section" style="background-color: red;">	
+new sec 
+
+</div>
+
+</body>
+<iframe src="../footer.html"></iframe>	
+<frame src="../footer.html"/>
+</frameset>
+</html>

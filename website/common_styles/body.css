@@ -1,4 +1,34 @@
+#main-sections{
+      margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+  #in-header{
+    position: initial;
+    top: 0;
+    width: 100%;
+    background: url(imgs/header_bg.png);
+    height: 215px;  
+    margin-top: -10px;
+
+  }
+  .footer{
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+    background: url(imgs/footer_bg.png);
+     
+
+  }
+  .main-body{
+    background: url(imgs/index_bg.jpg);
+    border: 0;
+
+  }
+
+
 /* use this class to make any div 100% height at the screen the color just for demonstration 
+
 and i like the baby blue  color :P :P :D :D ;
 */
 .body-section{
@@ -10,10 +40,8 @@ and i like the baby blue  color :P :P :D :D ;
 
 /* this class holds the navigation menue location  */
 .section-navigator{
-	right: 0;
-    /*padding-right: 55px;*/
     position: fixed;
-    width: 150px;
+    width: 15%;
     background: cornflowerblue;
     border-radius: 10%;
     margin-right: 50px;
@@ -33,14 +61,20 @@ iframe{
 }
 
 .body-parent-contaner{
-overflow: hidden;
-position: relative;
+  overflow: hidden;
+  position: relative;
+  float: right;
+  width: 85%;
+
 }
 .body-child-container{
 position: relative;
 height: 320px;
 top: -50%;
 margin-bottom: 20px;
+margin: 25px;
+background: gray;
+margin-bottom: 34px;
 }
 .link-readMore {
     float: right;
@@ -53,4 +87,27 @@ margin-bottom: 20px;
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
+}
+.intro{
+  height: 320px;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  z-index: auto;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 5px;
+ 
+
+}
+footer a {
+    text-decoration: none;
+    display: inline-block;
+
 }

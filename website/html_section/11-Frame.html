@@ -1,72 +1,50 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> this is html Body  and it's 90% html_section/body.html  </title>
-	<!-- link to structure and navigation css  -->
-	<link rel="stylesheet" type="text/css" href="../common_styles/basic.css">
-	
-	<!--
-	 force any link within this section to  load it's page into html body frame 
-		which is located html_section/layout.html so that any page related will be loaded here whitout losing the header 
-	-->
-	<base target="html-body"/>	
 
 </head>
-<body id="top">
-<!-- ---- IMPORTANT ----
-	section navigator within the body how to use this : 
-	-- first add a div with an id for ex : id="sec-3"
-	-- create a list item <li > in this <ul> and put a link inside it <a>
-	-- set the href? for the ancor tag to <a href="#sec-3" >  
-  -->
-	<div class="section-navigator" align="">
-		<ul>
-			<li><a href="#top">top</a> </li>
-			<li><a href="#sec-1">dev 1</a> </li>
-			<li><a href="#sec-2">dev 2</a> </li>
-			<li><a href="#sec-3">dev 3</a> </li>
-			<li><a href="#sec4">_________</a> </li>
-		</ul>
-	</div>
-<!-- end of rightside navigator  -->
+<body>
+<div>	
+	<h1>HTML Iframes</h1>
+		<p>An iframe is used to display a web page within a web page.Iframe Syntax</p>
+		<p><xmp>An HTML iframe is defined with the <iframe> tag:</xmp></p>
+		<p><xmp><iframe src="URL"></iframe> </xmp></p>
+		<p>The src attribute specifies the URL (web address) of the inline frame page.</p>
+</div>
 
-<center>s
-	
-<p>Html Body came from p  tag <br>
-this is html Body  and it's 90% html_section/body.html
-  </p>
-</center>
 
-<div class="body-section" id="sec-1">
-#dev1	
-<br>
-<p><b>Headings Are Important</b><p>
-<a href="html_page1.html">html Page 1  </a>
-<h2>HTML Iframes</h2>
-<p>An iframe is used to display a web page within a web page.Iframe Syntax</p>
-<p><xmp>An HTML iframe is defined with the <iframe> tag:</xmp></p>
-<p><xmp><iframe src="URL"></iframe> </xmp></p>
-<p>The src attribute specifies the URL (web address) of the inline frame page.</p>
-<p>Iframe - Set Height and Width</p>
-<p>Use the height and width attributes to specify the size of the iframe.</p>
-<p>The attribute values are specified in pixels by default, but they can also be in percent (like "80%").</p>
+
+
+
+
+
+
+
+
+
+
+
+<div>
+	<h2>Iframe - Set Height and Width</h2>
+		<p>Use the height and width attributes to specify the size of the iframe.</p>
+		<p>The attribute values are specified in pixels by default, but they can also be in percent (like "80%").</p>
 <h3>Example</h3>
 <p><xmp><iframe src="demo_iframe.htm" height="200" width="300"></iframe></xmp></p>
 
 </div>
 
-asdasd
-<div class="body-section" id="sec-2">
-#dev2	
-<br>
-<h2>Iframe - Remove the Border</h2>
-<p>By default, an iframe has a border around it. </p>
-<p>To remove the border, add the style attribute and use the CSS border property:</p>
-<h3>Example</h3>
+<div>
+	<h2>Iframe - Remove the Border</h2>
+		<p>By default, an iframe has a border around it. </p>
+		<p>To remove the border, add the style attribute and use the CSS border property:</p>
+	<h3>Example</h3>
 <p><xmp><iframe src="demo_iframe.htm" style="border:none;"></iframe></xmp></p>
-<h2>Iframe - Target for a Link</h2>
-<p>An iframe can be used as the target frame for a link.</p>
-<p>The target attribute of the link must refer to the name attribute of the iframe:</p>
+</div>
+
+<div>
+	<h2>Iframe - Target for a Link</h2>
+		<p>An iframe can be used as the target frame for a link.</p>
+		<p>The target attribute of the link must refer to the name attribute of the iframe:</p>
 <h3>Example</h3>
 <p><xmp>
 <iframe src="demo_iframe.htm" name="iframe_a"></iframe>
@@ -74,17 +52,6 @@ asdasd
 </xmp></p> 
 
 </div>
-k2
-<div class="body-section" id="sec-3">
-#dev3	
-</div>
-<div id="sec4" class="body-section" style="background-color: red;">	
-new sec 
-
-</div>
-
 </body>
-<iframe src="../footer.html"></iframe>	
-<frame src="../footer.html"/>
-</frameset>
+<a href="body.html">Go back to the html body </a>
 </html>

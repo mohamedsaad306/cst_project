@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> this is html Body  and it's 90% html_section/body.html  </title>
+	<!-- link to structure and navigation css  -->
+	<link rel="stylesheet" type="text/css" href="../common_styles/basic.css">
+	
+	<!--
+	 force any link within this section to  load it's page into html body frame 
+		which is located html_section/layout.html so that any page related will be loaded here whitout losing the header 
+	-->
+	<base target="html-body"/>	
+
+</head>
+<body id="top">
+<!-- ---- IMPORTANT ----
+	section navigator within the body how to use this : 
+	-- first add a div with an id for ex : id="sec-3"
+	-- create a list item <li > in this <ul> and put a link inside it <a>
+	-- set the href? for the ancor tag to <a href="#sec-3" >  
+  -->
+	<div class="section-navigator" align="">
+		<ul>
+			<li><a href="#top">top</a> </li>
+			<li><a href="#sec-1">dev 1</a> </li>
+			<li><a href="#sec-2">dev 2</a> </li>
+			<li><a href="#sec-3">dev 3</a> </li>
+			<li><a href="#sec4">_________</a> </li>
+		</ul>
+	</div>
+<!-- end of rightside navigator  -->
+
+<center>s
+	
+<p>Html Body came from p  tag <br>
+this is html Body  and it's 90% html_section/body.html
+  </p>
+</center>
+
+<div class="body-section" id="sec-1">
+#dev1	
+<br>
+<p><b>Headings Are Important</b><p>
+<a href="html_page1.html">html Page 1  </a>
+<h2><xmp>The <div> Element</xmp></h2>
+<p><xmp>The <div> element is often used as a container for other HTML elements.</xmp></p>
+<p><xmp>The <div> element has no required attributes, but both style and class are common.</xmp></p>
+<p><xmp>When used together with CSS, the <div> element can be used to style blocks of content:</xmp></p>
+<h3>Example</h3>
+<p><xmp>
+<div style="background-color:black;color:white;padding:20px;">
+  <h2>London</h2>
+  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+</xmp></p>
+
+<h2><xmp>The <span> Element</xmp></p>
+<p><xmp>The <span> element is often used as a container for some text.</xmp></p>
+<p><xmp>The <span> element has no required attributes, but both style and class are common.</xmp></p>
+<p><xmp>When used together with CSS, the <span> element can be used to style parts of the text:</xmp></p>
+<h3>Example</h3>
+<p><xmp><h1>My <span style="color:red">Important</span> Heading</h1></xmp></p>
+
+</div>
+
+asdasd
+<div class="body-section" id="sec-2">
+#dev2	
+</div>
+k2
+<div class="body-section" id="sec-3">
+#dev3	
+</div>
+<div id="sec4" class="body-section" style="background-color: red;">	
+new sec 
+
+</div>
+
+</body>
+<iframe src="../footer.html"></iframe>	
+<frame src="../footer.html"/>
+</frameset>
+</html>

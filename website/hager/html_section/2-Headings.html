@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> this is html Body  and it's 90% html_section/body.html  </title>
+	<!-- link to structure and navigation css  -->
+	<link rel="stylesheet" type="text/css" href="../common_styles/basic.css">
+	
+	<!--
+	 force any link within this section to  load it's page into html body frame 
+		which is located html_section/layout.html so that any page related will be loaded here whitout losing the header 
+	-->
+	<base target="html-body"/>	
+
+</head>
+<body id="top">
+<!-- ---- IMPORTANT ----
+	section navigator within the body how to use this : 
+	-- first add a div with an id for ex : id="sec-3"
+	-- create a list item <li > in this <ul> and put a link inside it <a>
+	-- set the href? for the ancor tag to <a href="#sec-3" >  
+  -->
+	<div class="section-navigator" align="">
+		<ul>
+			<li><a href="#top">top</a> </li>
+			<li><a href="#sec-1">dev 1</a> </li>
+			<li><a href="#sec-2">dev 2</a> </li>
+			<!--<li><a href="#sec-3">dev 3</a> </li>
+			<li><a href="#sec4">_________</a> </li>-->
+		</ul>
+	</div>
+<!-- end of rightside navigator  -->
+
+<center>s
+	
+<p>Html Body came from p  tag <br>
+this is html Body  and it's 90% html_section/body.html
+  </p>
+</center>
+
+<div class="body-section" id="sec-1">
+#dev1	
+<br>
+
+<a href="html_page1.html">html Page 1  </a>
+<p>
+	<b>Headings Are Important</b>
+<p>
+<p>Search engines use the headings to index the structure and content of your web pages.</p>
+<p>Users skim your pages by its headings. It is important to use headings to show the document structure.</p>
+<xmp><h1> headings should be used for main headings, followed by <h2> headings, then the less important < h3>, and so on.
+</xmp>
+<p><b>Example</b></p><xmp>
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+</xmp>
+
+
+</div>
+
+asdasd
+<div class="body-section" id="sec-2">
+#dev2	
+	<p><b>HTML Display</b></p>
+	<p>You cannot be sure how HTML will be displayed.<br>
+	   Large or small screens, and resized windows will create different results.<br> 
+	   With HTML, you cannot change the output by adding extra spaces or extra lines in your HTML code.<br>
+       The browser will remove any extra spaces and extra lines when the page is displayed:
+	</p>
+	<p><b>Example</b></p>
+	<xmp>
+<p>
+This paragraph contains a lot of lines in the source code,but the browser ignores it.
+</p>
+<p>
+This paragraph contains a lot of spaces
+in the source code,but the browser ignores it.
+</p>
+</xmp
+
+</div>
+<!--k2
+<div class="body-section" id="sec-3">
+#dev3	
+</div>
+<div id="sec4" class="body-section" style="background-color: red;">	
+new sec 
+
+</div>
+-->
+</body>
+<iframe src="../footer.html"></iframe>	
+<frame src="../footer.html"/>
+</frameset>
+</html>
